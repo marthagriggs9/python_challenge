@@ -6,7 +6,7 @@ Module 3 challenge
 
 In this work, I created a Python script that analyzes the financial records of my company, PyBank.
 
-I used the financial data found in budget_data.csv, which contained two columns: Date and Profit/Losses.
+I used the financial data found in [budget_data.csv](https://github.com/marthagriggs9/python_challenge/blob/main/PyBank/Resources/budget_data.csv) , which contained two columns: Date and Profit/Losses.
 
 The Python script analyzed the records to find the following:
 
