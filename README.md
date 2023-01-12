@@ -1,6 +1,6 @@
 # PyBank and PyPoll
 
-Module 3 challenge
+**Module 3 challenge**
 
 ## PyBank
 
