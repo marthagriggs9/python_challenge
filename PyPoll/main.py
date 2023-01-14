@@ -54,7 +54,7 @@ with open(PyPollpath) as csvfile:
         #Add a vote to that candidates count
         candidate_votes[candidate_name] += 1
             
-#Save tje results to the text file.
+#Save the results to the text file.
 with open(file_to_save, "w") as txt_file:
        
 #Print final vote count to the terminal
