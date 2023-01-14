@@ -41,7 +41,7 @@ To find the net total amount of Profit/Losses, the code needed to loop through t
 
 ![image](https://user-images.githubusercontent.com/115905663/212436868-60f60bd5-7623-42f8-b02f-9b814a8b5d71.png)
 
-Finding the average change in Profit/Losses over the entire period required looping through all the rows and subtracting the current months profit from the previous months profit and keeping track of those numbers in a list. Those values would need to be reset after each loop to get the new amount. Those profit changes would then need to be added together and divided by the number of months. However, one month would need to be subtracted from the total months given that the first month of the data set would not have a previous month the subtract from.
+Finding the average change in Profit/Losses over the entire period required looping through all the rows and subtracting the current months profit from the previous months profit and keeping track of those numbers in a list. Those values would need to be reset after each loop to get the new amount. Those profit changes would then need to be added together and divided by the number of months. However, one month would need to be subtracted from the total months given that the first month of the data set would not have a previous month to subtract from.
 
 ![image](https://user-images.githubusercontent.com/115905663/212437598-8b63f277-aa68-4542-a348-88581bce60b9.png)
 
@@ -93,6 +93,10 @@ I used the following code to loop through the rows and add the total number of v
 
 ![image](https://user-images.githubusercontent.com/115905663/212439198-eed76296-dde3-45a9-93da-f8fe37b87dae.png)
 
+This was then printed to the terminal and exported to a text file.
+
+![image](https://user-images.githubusercontent.com/115905663/212488203-caa4142d-3476-43be-b6b0-9d30b77f67eb.png)
+
 I created a list to hold the names of the candidates that received votes in the election. The code looped through the candidate row and added the various names of the candidates to the list. 
 
 ![image](https://user-images.githubusercontent.com/115905663/212439344-481bd33a-8d1b-49fd-a2ee-23f913782999.png)
@@ -101,10 +105,21 @@ I also began tracking the candidate vote count to be held in a dictionary. This 
 
 ![image](https://user-images.githubusercontent.com/115905663/212439584-262ac281-9163-4ad5-bf50-dcf088867feb.png)
 
-To find the percentage of votes that each candidate received required dividing the total number of votes by the votes that for each candidate (that was held in the dictionary) and multiplying the answer by 100. 
+To find the percentage of votes that each candidate received required dividing the total number of votes by the votes for each candidate (that was held in the dictionary) and multiplying the answer by 100. 
 
 ![image](https://user-images.githubusercontent.com/115905663/212440601-ec9a9dc9-d051-43d9-9b80-c40fc3417e80.png)
 
+This information was then printed to the terminal and exported to the text file. 
+
+![image](https://user-images.githubusercontent.com/115905663/212488302-9dce5b7e-2b7d-4ecd-92f3-66527fc6a9b6.png)
+
+I needed to use the following code to determine the winning vote count and which candidate won the election. 
+
+![image](https://user-images.githubusercontent.com/115905663/212488167-e2ae90be-fa19-49ef-abb5-43d045784475.png)
+
+The winners name was then printed to the terminal and exported to the text file. 
+
+![image](https://user-images.githubusercontent.com/115905663/212488342-585f076e-40ff-4660-b0bf-42114816f902.png)
 
 
 
